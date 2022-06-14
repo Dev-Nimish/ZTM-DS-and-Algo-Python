@@ -38,6 +38,6 @@ print_numbers_then_pairs(new_array)
 #Now, Big-O presents scalability of the cod, i.e., how the code will behave as the inputs grow larger and larger
 #Therefore if the expression contains terms of different degrees and the size of inputs is huge, the terms of the smaller degrees become negligible in comparison to those of the higher degrees
 #Therefore, we can ignore the terms of the smaller degrees and only keep the highest degree term
-#O(3n^2 + 2n + 2) = O(3n2)
+#O(3n^2 + 2n + 2) = O(3n^2)
 #The constants can be safely ignored.
 #Therefore, O(3n^2) = O(n^2)
